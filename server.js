@@ -47,7 +47,7 @@ let noteRoutes = require('./routes/noteRoutes')
 app.use('/note', noteRoutes)
 
 // Set the application's port to the value of the PORT environment variable or 8080 if it is not set
-const PORT = process.env.PORT || 8001;
+const PORT = process.env.PORT || 8080;
 
 // Start the server and listen for incoming requests on the specified port
 app.listen(PORT, () => {
